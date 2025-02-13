@@ -74,7 +74,7 @@ public class Main {
 
             oos.writeObject(gameProgress);
             gamesForZip.add(fileName);
-            zipFiles(zipDir.getPath(), gamesForZip);
+            zipFiles(zipDir.getPath().toString(), gamesForZip);
             countSavings++;
 
         } catch (Exception e) {

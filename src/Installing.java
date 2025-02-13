@@ -56,7 +56,7 @@ public class Installing {
                                 + e.getMessage());
                     }
                 });
-        write("C:/Games/temp/temp.txt", sb.toString());
+        write("C:/Users/myakk/Games/temp/temp.txt", sb.toString());
     }
 
     void write(String path, String content) throws IOException {
